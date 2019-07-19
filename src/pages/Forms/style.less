@@ -1,0 +1,51 @@
+@import '~antd/lib/style/themes/default.less';
+
+.searchBox {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.powerWrapper {
+  :global {
+    .ant-card {
+      height: 188px;
+    }
+  }
+
+  .cardInfo {
+    height: 64px;
+
+    .title {
+      width: 100%;
+      display: flex;
+      font-size: 12px;
+      text-align: left;
+
+      li {
+        flex: 1;
+      }
+    }
+
+    .desc {
+      width: 100%;
+      display: flex;
+      font-size: 12px;
+      font-weight: bold;
+      text-align: left;
+
+      li {
+        flex: 1;
+      }
+    }
+  }
+
+  .newButton {
+    width: 100%;
+    height: 188px;
+    color: @text-color-secondary;
+    background-color: #fff;
+    border-color: @border-color-base;
+    border-radius: @border-radius-sm;
+  }
+}
