@@ -22,7 +22,7 @@ export default [
     path: '/',
     component: '../layouts/BasicLayout',
     Routes: ['src/pages/Authorized'],
-    authority: ['admin'],
+    authority: ['admin', 'user'],
     dynamic: true,
     routes: [
       // admin首页
