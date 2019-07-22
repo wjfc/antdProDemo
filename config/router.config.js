@@ -18,6 +18,7 @@ export default [
     ],
   },
   // app
+  // msater分支 10：51添加内容测试
   {
     path: '/',
     component: '../layouts/BasicLayout',
