@@ -18,6 +18,7 @@ export default [
     ],
   },
   // app
+  // feature1 分支添加的内容
   {
     path: '/',
     component: '../layouts/BasicLayout',
